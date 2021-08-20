@@ -1,14 +1,11 @@
 package com.example.cursobrocode;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-
-import java.io.IOException;
 
 public class Main extends Application {
 
@@ -22,7 +19,7 @@ public class Main extends Application {
         Group primaryRoot = new Group();
         Scene primaryScene = new Scene(primaryRoot, Color.BLACK);
 
-        Image icon = new Image("lena.png");
+        Image icon = new Image("com/example/cursobrocode/imagens/lena.png");
         primaryStage.getIcons().add(icon);
         primaryStage.setTitle("Stage Demo Program");
 
